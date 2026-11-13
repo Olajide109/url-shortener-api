@@ -1,0 +1,16 @@
+{
+  "name": "movie-watchlist-api",
+  "version": "1.0.0",
+  "description": "Movie Watchlist API - Backend Mini Project",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
