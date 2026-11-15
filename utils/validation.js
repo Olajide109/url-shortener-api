@@ -13,12 +13,6 @@ export function validateUrlType(data) {
 
   return null;
 }
-const testData = {
-  originalUrl: 12345,
-};
-
-//console.log(validateRequiredFields(testData));
-//console.log(validateUrlType(testData));
 
 export function validateResource(data) {
   if (!data || typeof data !== "object" || Array.isArray(data)) {
@@ -59,36 +53,3 @@ export function validateUrlFormat(data) {
   }
 }
 
-console.log(
-  "Test 1:",
-  validateResource({
-    originalUrl: "https://www.google.com",
-  }),
-);
-
-console.log(
-  "Test 2:",
-  validateResource({
-    originalUrl: "",
-  }),
-);
-
-console.log(
-  "Test 3:",
-  validateResource({
-    originalUrl: 12345,
-  }),
-);
-
-console.log(
-  "Test 4:",
-  validateResource({
-    originalUrl: "hello world",
-  }),
-);
-
-console.log("Test 5:", validateResource(null));
-
-console.log("Test 6:", validateResource());
-
-console.log("Test 7:", validateResource([]));

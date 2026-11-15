@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": 2,
+    "originalUrl": "https://www.mozilla.org/",
+    "shortCode": "720jz8",
+    "createdAt": "2026-11-15T20:42:52.966Z",
+    "updatedAt": "2026-11-15T22:09:40.419Z"
+  },
+  {
+    "id": 3,
+    "originalUrl": "https://example.org",
+    "shortCode": "rfhmhx",
+    "createdAt": "2026-11-15T21:37:31.043Z",
+    "updatedAt": "2026-11-15T21:37:31.043Z"
+  }
+]
