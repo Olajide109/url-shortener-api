@@ -189,6 +189,14 @@ URL records are read and written using Node.js filesystem operations.
 
 This provides a simple persistence mechanism without requiring an external database.
 
+## Team Members & Contributions
+
+- Olajide – Built the Express routing and CRUD endpoints (`routes/urls.js`).
+- Ibrahim Olamide – Built the JSON file storage system (`utils/fileHelper.js` and `data/urls.json`).
+- Kobby – Implemented request body and URL format validation helpers (`utils/validation.js`).
+- Eric – Authored and structured the project documentation (`README.md`) and endpoint usage examples.
+- Jane frances
+
 ## Future Improvements
 
 The following features could improve the project:
