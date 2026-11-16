@@ -195,7 +195,7 @@ This provides a simple persistence mechanism without requiring an external datab
 - Ibrahim Olamide – Built the JSON file storage system (`utils/fileHelper.js` and `data/urls.json`).
 - Kobby – Implemented request body and URL format validation helpers (`utils/validation.js`).
 - Eric – Authored and structured the project documentation (`README.md`) and endpoint usage examples.
-- Jane frances
+- Jane frances - Tested API endpoints using Postman and verified request/response functionality.
 
 ## Future Improvements
 
